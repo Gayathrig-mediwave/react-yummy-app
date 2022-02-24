@@ -1,0 +1,87 @@
+/* main Card Block */
+
+/* Recipe image block  */
+.RecipeCard {
+  max-width: 343px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0px 3px 6px #00000029;
+}
+.NameContent {
+  display: flex;
+  justify-content: space-between;
+}
+.RecipeCard .Content {
+  padding: 20px;
+}
+.CoverImg img {
+  border-radius: 15px 15px 0 0;
+  width: 343px;
+  height: 223px;
+}
+
+.RecipeCardWrap {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 30px;
+  justify-content: center;
+}
+.ImageCards {
+  width: fit-content;
+  margin: auto;
+}
+.PrimaryBtn {
+  margin-bottom: 40px;
+}
+/* Popular recipes  */
+.RecipesBlock {
+  background-color: #f2f2f2;
+}
+.RecipesBlock h2 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #00b158;
+}
+.RecipesBlockInnerContainer {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 50px 0px;
+}
+.TextContainer {
+  text-align: center;
+}
+.PopularRecipes {
+  font-size: 38px;
+  color: #17285a;
+}
+.TextRight {
+  text-align: right;
+}
+.PrimaryBtn {
+  width: 200px;
+  height: 45px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #00b158;
+  border-radius: 25px;
+  outline: none;
+  border: 0px;
+  text-transform: uppercase;
+}
+/* media query @1200px */
+@media (max-width: 1200px) {
+  .RecipeCardWrap {
+    grid-template-columns: auto auto;
+    gap: 40px;
+  }
+}
+/* media query @780px */
+@media (max-width: 780px) {
+  .RecipeCardWrap {
+    grid-template-columns: auto;
+  }
+  .TextRight {
+    text-align: center;
+  }
+}

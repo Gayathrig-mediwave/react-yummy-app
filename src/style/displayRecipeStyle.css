@@ -1,0 +1,75 @@
+/* inside main container */
+/* .DispRecipeContainer {
+  max-width: 70%;
+  margin: 55px auto;
+  color: #363636;
+} */
+.DispRecipeContainer {
+  max-width: 997px;
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  color: #363636;
+}
+/* recipe img */
+.DisplayRecipeImg {
+  background-image: url(https://pipingpotcurry.com/wp-content/uploads/2021/04/Instant-Pot-Chicken-Biryani-recipe-Piping-Pot-Curry-480x270.jpg);
+  height: 273px;
+  max-width: 1000px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: 23px;
+}
+.DispRecipeHead {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.DispRecipeHead img {
+  max-width: 18px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.FoodType {
+  margin-left: 15px;
+}
+.DispRecipeHead h2 {
+  font: normal normal 600 28px/42px Poppins;
+  letter-spacing: 0px;
+  color: #17285a;
+  opacity: 1;
+  text-transform: capitalize;
+}
+.DispRecipeHead h3 {
+  font: normal normal 600 18px/27px Poppins;
+  letter-spacing: 0px;
+  color: #363636;
+  opacity: 1;
+}
+
+.DisplayIngredients {
+  background-color: #ffff;
+  padding: 20px;
+  font: normal normal normal 18px/32px Poppins;
+  letter-spacing: 0px;
+}
+.DisplayIngredients p {
+  word-break: break-all;
+  white-space: normal;
+}
+.DisplaySteps-p {
+  background-color: #ffff;
+  padding: 20px;
+  font: normal normal normal 18px/32px Poppins;
+  letter-spacing: 0px;
+}
+.DisplaySteps p {
+  word-break: break-all;
+  white-space: normal;
+}

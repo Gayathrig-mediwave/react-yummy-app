@@ -1,0 +1,116 @@
+.Header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images//home/coverImage.png);
+  background-color: black;
+  opacity: 60;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.HomePage {
+  height: 600px;
+}
+.RecipePage {
+  height: 250px;
+}
+.RecipeImage {
+  height: 250px;
+}
+.RecipeImage .Header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://pipingpotcurry.com/wp-content/uploads/2021/04/Instant-Pot-Chicken-Biryani-recipe-Piping-Pot-Curry-480x270.jpg);
+  background-color: black;
+  opacity: 60;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.HeaderContent {
+  margin: 0 auto;
+  max-width: 718px;
+}
+.Header h1 {
+  color: #fff;
+  font-size: 45px;
+  text-align: center;
+}
+.Delicious {
+  height: 70px;
+}
+/* form */
+#formId {
+  position: relative;
+  max-width: 600px;
+  margin: auto;
+}
+#formId input {
+  max-width: 580px;
+  width: 100%;
+  height: 50px;
+  border-radius: 25px;
+  border: none;
+  padding: 0 5px 0 10px;
+}
+.Search {
+  position: absolute;
+  top: 16px;
+  right: 22px;
+  cursor: pointer;
+}
+/* media query @520px */
+@media (max-width: 520px) {
+  .TextRight {
+    text-align: center;
+  }
+  #formId input {
+    max-width: 486px;
+  }
+  .Header h1 {
+    font-size: 42px;
+    text-align: center;
+  }
+}
+/* media query @425px */
+@media (max-width: 425px) {
+  #formId input {
+    max-width: 400px;
+    padding: 0px 5px 0 16px;
+  }
+  .Header h1 {
+    font-size: 38px;
+    text-align: center;
+  }
+}
+/* media query @375px */
+@media (max-width: 375px) {
+  #formId input {
+    max-width: 353px;
+    padding: 0px 5px 0 16px;
+  }
+}
+/* media query @320px */
+@media (max-width: 320px) {
+  #formId input {
+    max-width: 295px;
+  }
+}
+.NewRecipe {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font: normal normal normal 45px/68px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+.RecipeName {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font: normal normal normal 45px/68px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+}

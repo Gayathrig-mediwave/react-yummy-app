@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("http://fonts.cdnfonts.com/css/apple-chancery");
+.FooterMain {
+  background-color: #17285a;
+  opacity: 100%;
+  margin: auto;
+  width: 100%;
+  display: block;
+  margin-top: 60px;
+}
+.YummyFooter {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  padding: 20px 0;
+  justify-content: space-between;
+  border-bottom: 1px solid #ffffff;
+  align-items: center;
+}
+.FooterMenu {
+  display: flex;
+}
+
+.FooterMenu a {
+  color: #ffff;
+  text-decoration: none;
+  margin-right: 12px;
+  margin-left: 16px;
+}
+.FooterYear {
+  padding: 25px 0px;
+}
+
+.FooterYear {
+  color: #ffffff;
+  text-align: center;
+}
+.FooterIcon a {
+  margin: 6px;
+}
+
+@media (max-width: 600px) {
+  .FooterMenu {
+    display: flex;
+    justify-content: space-evenly;
+    width: 35%;
+    margin: 40px 0px;
+  }
+  .YummyFooter {
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+    display: block;
+    text-align: -webkit-center;
+  }
+  .FooterMenu a {
+    color: #ffff;
+    text-decoration: none;
+    margin-right: 12px;
+    margin-left: 16px;
+  }
+}
+@media (min-width: 1367px) {
+  .YummyFooter {
+    max-width: 60%;
+    transition: 0.5s;
+  }
+}
